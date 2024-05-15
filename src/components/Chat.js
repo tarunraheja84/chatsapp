@@ -80,9 +80,10 @@ function Chat() {
 
 
   return (
-    <div className="h-14 bg-white w-full p-4 shadow-lg rounded-lg">
+    <div className="relative h-14 bg-white w-full p-4 pt-2 shadow-lg rounded-lg">
+        <div className="absolute text-xs top-1 right-1">By Tarun</div>
       <div className="mb-4 sticky">
-        <h1 className="text-2xl font-bold text-center">ChatsApp</h1>
+        <h1 className="text-2xl font-bold text-center text-blue-500">ChatsApp</h1>
       </div>
       <div
         id="scrollableDiv"

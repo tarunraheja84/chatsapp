@@ -95,7 +95,7 @@ function Chat() {
             ref={index === chat.length - 1 ? lastMessageRef : null} // Set ref to the last message
             className={`flex mb-2 ${localStorage.getItem('user') === msg.user ? "" : "justify-end"}`}>
             <div
-              className="flex flex-col w-2/3 bg-gray-200 rounded-md"
+              className="flex flex-col w-2/3 bg-gray-200 rounded-md mt-2"
             >
               {!(localStorage.getItem('user') === msg.user) && <div className="text-blue-500 font-bold px-1 pt-1 rounded text-xs flex justify-end">
                 {msg.user}

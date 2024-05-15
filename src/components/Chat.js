@@ -23,11 +23,6 @@ function Chat() {
       else {
         page.current = page.current + 1;
         setChat(prevChat => [...moreMessages, ...prevChat]);
-        // setTimeout(() => {
-        //   if (scrollableDivRef.current) {
-        //     scrollableDivRef.current.scrollTop = scrollableDivRef.current.scrollHeight;
-        //   }
-        // }, 0);
       }
     });
 
@@ -88,7 +83,7 @@ function Chat() {
       <div
         id="scrollableDiv"
         ref={scrollableDivRef}
-        className="mb-4 h-[calc(100vh-10rem)] overflow-y-auto"
+        className="mb-4 h-[calc(100vh-150px)] overflow-y-auto"
       >
         {chat.map((msg, index) => (
           <div key={index}

@@ -88,7 +88,7 @@ function Chat() {
       <div
         id="scrollableDiv"
         ref={scrollableDivRef}
-        className="mb-4 h-[calc(100vh-9rem)] overflow-y-auto"
+        className="mb-4 h-[calc(100vh-12rem)] overflow-y-auto"
       >
         {chat.map((msg, index) => (
           <div key={index}

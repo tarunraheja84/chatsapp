@@ -5,7 +5,7 @@ ChatsApp is a WhatsApp clone built using Reactjs in the frontend and Nodejs in t
 ## Features
 
 - Real-time messaging.
-- Infinite scroll bar for seamless message viewing of past messages.
+- Infinite scroll bar for seamless viewing of past messages.
 - User-friendly interface similar to WhatsApp.
 
 ## Technologies Used

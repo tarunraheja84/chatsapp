@@ -1,19 +1,19 @@
 # ChatsApp
 
-ChatsApp is a WhatsApp clone built using React.js for the frontend. It leverages socket.io-client to send and receive real-time messages and includes an infinite scroll bar for viewing messages efficiently.
+ChatsApp is a WhatsApp clone built using Reactjs in the frontend and Nodejs in the backend. It leverages WebSockets (socket.io) to send and receive real-time messages and includes an infinite scroll bar for viewing past messages efficiently.
 
 ## Features
 
 - Real-time messaging.
-- Infinite scroll bar for seamless message viewing.
+- Infinite scroll bar for seamless message viewing of past messages.
 - User-friendly interface similar to WhatsApp.
 
 ## Technologies Used
 
 - React.js
-- Socket.io-client
+- Socket.io
 - HTML5
-- CSS3
+- tailwind CSS
 - JavaScript
 
 ## Installation

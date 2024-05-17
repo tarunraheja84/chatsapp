@@ -1,17 +1,17 @@
-# Tarun-newsApp
+# ChatsApp
 
-Tarun-newsApp is a React-based application that allows users to view daily news articles. Users can filter news by different genres such as sports, entertainment, politics, etc. The app also features an infinite scroll bar for a seamless browsing experience.
+ChatsApp is a WhatsApp clone built using React.js for the frontend. It leverages socket.io-client to send and receive real-time messages and includes an infinite scroll bar for viewing messages efficiently.
 
 ## Features
 
-- View daily news articles.
-- Filter news by categories: sports, entertainment, politics, and more.
-- Infinite scroll bar for continuous news feed.
+- Real-time messaging.
+- Infinite scroll bar for seamless message viewing.
+- User-friendly interface similar to WhatsApp.
 
 ## Technologies Used
 
 - React.js
-- News API
+- Socket.io-client
 - HTML5
 - CSS3
 - JavaScript
@@ -21,5 +21,5 @@ Tarun-newsApp is a React-based application that allows users to view daily news 
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/tarun-newsApp.git
-cd tarun-newsApp
+git clone https://github.com/yourusername/chatsApp.git
+cd chatsApp
